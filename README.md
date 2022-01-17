@@ -2,6 +2,10 @@
 
 - [node & npm](http://nodejs.org)
 - [MongoDB](https://www.mongodb.com/)
+- 
+- https://www.mongodb.com/try/download/compass
+- https://www.mongodb.com/try/download
+- 
 - [PostMan](https://www.getpostman.com/)
 
 ## Installation
