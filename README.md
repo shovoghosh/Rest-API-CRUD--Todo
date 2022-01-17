@@ -1,16 +1,46 @@
-# todoapp
+## Requirements
 
-A new Flutter project.
+- [node & npm](http://nodejs.org)
+- [MongoDB](https://www.mongodb.com/)
+- [PostMan](https://www.getpostman.com/)
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+1. Clone the repository
+2. Install the application: `npm install`
+3. Place your own MongoDB URI in `credentials/mongo.js`
+3. Start the server: `node server.js` or `node .`
+4. Open PostMan and make a `GET` request to `http://localhost:3000/api/info/`
 
-A few resources to get you started if this is your first Flutter project:
+------------
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Commands
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+npm install --save-dev
+
+
+## Run
+
+node server.js
+or
+node .
+
+
+------------
+
+http://localhost:3000/api/v1/todo
+
+
+#### End-Points
+| Method | End-Point | Description |
+| --- | --- | --- |
+| `GET` | `/todo` | List all *todos* |
+| `POST` | `/todo` | Create a new *todo* |
+| `GET` | `/todo/:id` | Fetch a specific *todo* |
+| `PUT` | `/todo/:id` | Edit existing *todo* |
+| `PATCH` | `/todo/:id` | Mark an existing *todo* as complete |
+| `DELETE` | `/todo/:id` | Delete existing *todo* |
+
+----------
+## Documentation
+https://documenter.getpostman.com/view/8474302/SVfGyBSu
